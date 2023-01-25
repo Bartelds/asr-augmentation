@@ -1,0 +1,60 @@
+wandb:
+    entity: name
+    project: project
+    name: run_name
+
+env:
+    WANDB_MODE: online
+
+data:
+    base_path: ???
+
+    train_tsv: train.tsv
+    eval_tsv: test.tsv
+
+    path_col: path
+    text_col: text
+
+    subset_train:
+        mins: 24
+        seed: 4892
+
+w2v2:
+    proc:
+
+    tok:
+        vocab_file: src/ft/vocab.json
+
+    fext:
+        return_attention_mask: True
+    
+    model:
+        pretrained_model_name_or_path: facebook/wav2vec2-xls-r-300m
+        mask_time_prob: 0.075
+        mask_feature_prob: 0.004
+        ctc_loss_reduction: 'mean'
+
+    decode:
+        method: greedy
+
+trainargs:
+    seed: 4892
+    output_dir: ???
+    learning_rate: 5e-5
+    per_device_train_batch_size: 8
+    per_device_eval_batch_size: 8
+    gradient_accumulation_steps: 4
+    logging_steps: 100
+    eval_steps: 500
+    save_steps: 500
+    save_total_limit: 1
+    load_best_model_at_end: True
+    max_steps: 13_000
+    optim: adamw_torch
+    fp16: True
+    metric_for_best_model: wer
+    greater_is_better: False
+    dataloader_num_workers: 4
+    group_by_length: True
+    evaluation_strategy: steps
+    report_to: none
