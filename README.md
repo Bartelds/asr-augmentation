@@ -159,10 +159,10 @@ All pre-trained and fine-tuned models are available on the [Hugging Face Hub](ht
 [Hugging Face](https://huggingface.co/bartelds/gos-gpum2-cp0_adp0_168-tts_24-orig_1e-4_cp-12500) | 24 + 168 TTS | 1e-4 | 12500 | no | 0.204 |
 [Hugging Face](https://huggingface.co/bartelds/gos-gpu6-cp0_adp0_2x168m-tts_24-orig_5e-5_cp-11000) | 24 + 2 x 168 TTS | 5e-5 | 11000 | no | 0.209 |
 [Hugging Face](https://huggingface.co/bartelds/gos-gpu6-cp0_adp0_4x168m-tts_24-orig_5e-4_cp-12500) | 24 + 4 x 168 TTS | 5e-4 | 12500 | no | 0.198 |
-[Hugging Face](https://huggingface.co/bartelds/gos-gpu6-cp1_adp0_144m-silver_48-orig_5e-4_cp-11000) | 48 + 144 ST | 5e-5 | 8000 | yes | 0.226 |
+[Hugging Face](https://huggingface.co/bartelds/gos-gpu6-cp1_adp0_144m-silver_48-orig_5e-4_cp-11000) | 48 + 144 ST | 5e-4 | 11000 | yes | 0.226 |
 [Hugging Face](https://huggingface.co/bartelds/gos-gpum-cp0_adp0_144m-silver_48-orig_5e-5_cp-8000) | 48 + 144 ST | 5e-5 | 8000 | no | 0.230 |
-[Hugging Face](https://huggingface.co/bartelds/gos-gpu6-cp1_adp0_96m-silver_96-orig_5e-4_cp-10000) | 96 + 96 ST | 5e-5 | 11000 | yes | 0.183 |
-[Hugging Face](https://huggingface.co/bartelds/gos-gpum-cp0_adp0_96m-silver_96-orig_1e-4_cp-11000) | 96 + 96 ST | 5e-5 | 11000 | no | 0.183 |
+[Hugging Face](https://huggingface.co/bartelds/gos-gpu6-cp1_adp0_96m-silver_96-orig_5e-4_cp-10000) | 96 + 96 ST | 5e-4 | 10000 | yes | 0.183 |
+[Hugging Face](https://huggingface.co/bartelds/gos-gpum-cp0_adp0_96m-silver_96-orig_1e-4_cp-11000) | 96 + 96 ST | 1e-4 | 11000 | no | 0.183 |
 
 ## West-Frisian
 
@@ -199,8 +199,8 @@ All pre-trained and fine-tuned models are available on the [Hugging Face Hub](ht
 | Model | Min of data | Learning rate | Checkpoint (steps) | CPT | WER test |
 |-------|-------------|---------------|--------------------|-----|----------|
 [Hugging Face](https://huggingface.co/bartelds/besemah-gpu6-cp0_adp0_168m-silver_24-orig_1e-5_cp-13000) | 24 + 168 ST | 1e-5 | 13000 | no | 0.471 |
-[Hugging Face](https://huggingface.co/bartelds/besemah-gpu6-cp0_adp0_144m-silver_48-orig_5e-4_cp-13000) | 48 + 144 ST | 5e-5 | 8000 | no | 0.398 |
-[Hugging Face](https://huggingface.co/bartelds/besemah-gpu6-cp0_adp0_96m-silver_96-orig_1e-4_cp-13000) | 96 + 96 ST | 5e-5 | 11000 | no | 0.359 |
+[Hugging Face](https://huggingface.co/bartelds/besemah-gpu6-cp0_adp0_144m-silver_48-orig_5e-4_cp-13000) | 48 + 144 ST | 5e-4 | 13000 | no | 0.398 |
+[Hugging Face](https://huggingface.co/bartelds/besemah-gpu6-cp0_adp0_96m-silver_96-orig_1e-4_cp-13000) | 96 + 96 ST | 1e-4 | 13000 | no | 0.359 |
 
 
 ## Nasal
