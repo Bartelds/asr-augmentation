@@ -19,15 +19,14 @@ pip install -r requirements.txt
 
 ## Data
 
-The transcribed recordings for Gronings, Besemah and Nasal are available for research or non-commercial purposes by request and with prior consent from the communities.
+In this repository, we provide a small demonstration dataset with Gronings in `data/gos-demo`, based on the dataset released by [San et al. (2021)](https://github.com/fauxneticien/qbe-std_feats_eval). This data is also available on the [Hugging Face Hub](https://huggingface.co/datasets/bartelds/gos-demo).
 
+The full datasets used in the experiments for Gronings, Besemah, and Nasal are available on [Zenodo](https://zenodo.org/record/7946870).
 The FAME! ASR corpus for West-Frisian can be obtained by emailing the [authors](https://islrn.org/resources/340-994-352-616-4/).
 
-We provide a demonstration dataset with Gronings transcribed speech based on the dataset released by [San et al. (2021)](https://github.com/fauxneticien/qbe-std_feats_eval).
+## License
 
-This dataset is publicly available under the CC-BY 4.0 license.
-
-The transcribed recordings and train, development and test splits are available in `data/gos-demo` and on the [Hugging Face Hub](https://huggingface.co/datasets/bartelds/gos-demo).
+The code and (pre-trained/fine-tuned) models are released as Apache 2.0 license, as indicated in the `LICENSE` file. The Gronings, Nasal, and Besemah ASR datasets are released as CC-BY 4.0.
 
 ## Usage
 
